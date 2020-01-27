@@ -1,0 +1,6 @@
+Emma Dorman
+
+1. Data can travel in different packages, not all on the same line, through routers and directories until they arrive together at the same place.
+2. Your computer uses the DNS to look up domain names and get the associated IP address, which is used to connect your computer to the desired destination on the internet.
+3. Cookies are saved data from websites meant to remember useful information and are saved on your computer.
+4. The protocol, the domain name, and the path.

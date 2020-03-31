@@ -1,0 +1,29 @@
+h1 {
+  color: black}
+body {
+background-color: lightgrey;
+text-align: left;
+}
+
+a {
+color: black; padding:10px
+}
+
+img {opacity: 0.9}
+
+.square {
+  width: 50%;
+}
+#green {
+  background-color: #707a1f;
+}
+#yellow {
+  background-color: #e0b406;
+}
+#orange {
+  background-color: #cf6017;
+}
+#brown {
+  background-color: #9c4c16;
+}
+/* Woooooo*/

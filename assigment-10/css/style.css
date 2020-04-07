@@ -1,0 +1,29 @@
+
+body {
+  background-color: lightgrey;
+  padding: 5px; font-family: 'Roboto Slab', serif;
+
+
+}
+.text {
+  background-color: white;
+  padding: 5px;
+  font-family: 'Indie Flower', serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.info {
+  letter-spacing: 0.2em;
+}
+p::first-line {
+  color: red;
+}
+a {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+a:hover {
+  font-style: italic;
+}

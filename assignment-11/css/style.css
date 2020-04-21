@@ -1,0 +1,73 @@
+body {
+  background-color: lightgrey;
+  padding: 5px; font-family: 'Roboto Slab', serif;
+  font-size: 1.25em;
+
+}
+
+.navigation {
+  background-color: black;
+    width: 300px;
+    font color: blue;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+.navigation a {
+  text-decoration: none;
+  color #FFF;
+}
+
+.site-info {
+margin: 2em auto;
+text-align: center;
+font-size: 200%;
+}
+
+.logo {
+  background-color: #FFF;
+  width: 150px;
+  height: 150px;
+
+  border: 5px solid #000 ;
+  border-radius: 10%;
+
+  margin: 0 auto 1em auto;
+
+  line-height: 150px;
+  color: #000;
+  text-transform: uppercase;
+}
+.logo:hover {
+  border-color: #999;
+}
+
+.site-links {
+  margin: 0 1em;
+}
+
+.site-links a{
+  display: block;
+  margin: 1em;
+}
+.site-links a:hover {
+  margin-left: 2.5em;
+}
+
+.main {
+  background-color: white;
+  overflow: auto;
+  margin-left: 300px;
+  padding: 1em;
+}
+
+.text {
+  margin: 300px;
+  padding: 1em;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,94 @@
+/* CSS for Navigation Menu */
+
+/* Menu Bar (Container): */
+menu {
+  background-color: lightyellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top Level Links: */
+#site-links {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+
+}
+
+#site-links .menu-item {
+  width: 6em;
+  background-color: lightgrey;
+  padding: .5em 1em;
+  text-align: center;
+  color: #black;
+  display: inline-block;
+}
+
+#site-links .menu-item:hover {
+  background-color: yellow;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+/*Dropdown: */
+#site-links .Dropdown {
+display: inline-block;
+width: 6em;
+
+}
+
+#site-links .Dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightpink;
+  z-index: 5;
+
+}
+
+#site-links .Dropdown-content a {
+  color: #black;
+  font-family: 'arvo', georgia, serif;
+}
+
+#site-links .Dropdown-content a:hover {
+  color: #blue;
+  font-weight: 900;
+}
+
+#site-links .Dropdown:hover .Dropdown-content {
+  display:block;
+}
+
+#site-links .Dropdown-item {
+  min-width: 6em;
+  padding: .5em 1em;
+  text-align: center;
+  display: block;
+}
+
+.Dropdown-item:hover {
+  background-color: lightyellow;
+}
+
+/* Social Media Accounts: */
+#social-links {
+display: inline-block;
+padding: .5em;
+float: right;
+
+
+}
+#social-links .social-item {
+  margin: 5px;
+
+}
+#social-links img {
+  width: 25px;
+  height: 25px;
+  opacity: .75;
+
+}
+#social-links img:hover {
+  opacity: 1;
+}

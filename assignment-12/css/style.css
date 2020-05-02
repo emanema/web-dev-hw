@@ -1,0 +1,99 @@
+/* css for general styling */
+
+/* site-wide elements: */
+body {
+  background-color: orange;
+  background-image: ;
+  background-attachment: fixed;
+}
+
+/* layout area: */
+.main-container {
+  width: 60%;
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 3em;
+  background-color: #FFF;
+  border-right: 15px solid #999;
+  border-bottom: 15px solid #666;
+}
+
+header {
+
+}
+
+main {
+  text-align: justify;
+  margin: 3em 0;
+}
+
+footer {
+  text-align: center;
+  font-size: .75em;
+  margin-top: 3em;
+}
+
+/* site info*/
+.site-heading {
+  width: 50%;
+  margin: 4em auto;
+  padding: 30px;
+  position: relative;
+  border:5px black;
+  text-align: center;
+}
+
+#site-title {
+  margin: .5em;
+  line-height: 1em;
+  font-size: 3em;
+}
+
+#site-slogan {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.site-logo {
+  margin:auto;
+  margin-top: -60px;
+  display: block;
+  position: relative;
+}
+
+.logo {
+  background-color: #FFF;
+  width: 150px;
+  height: 150px;
+
+  border: 5px solid #000 ;
+  border-radius: 10%;
+
+  margin: 0 auto 1em auto;
+
+  line-height: 150px;
+  color: #000;
+  text-transform: uppercase;
+}
+.logo:hover {
+  border-color: #999;
+}
+
+.button {
+  margin: auto;
+  position: relative;
+  background-color: red;
+  text-align: center;
+}
+
+.button:active {
+  background-color: yellow;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.button:hover {
+  text-decoration: underline overline;
+  text-decoration-color: #blue;
+}
